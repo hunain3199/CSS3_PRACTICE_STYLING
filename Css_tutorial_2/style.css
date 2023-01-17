@@ -1,0 +1,38 @@
+#para1 {
+    background-color: aqua;
+    height: 300px;
+    width: 500px;
+    /* border-color: green;
+    border-style: dashed;
+    border-width: 20px; */
+    text-align: center;
+    border-radius: 30px;
+    border: 20px green dashed;
+}
+#para2 {
+    background-color: rgb(129, 233, 233);
+    height: 300px;
+    width: 500px;
+    /* border-color: green;
+    border-style: dashed;
+    border-width: 20px; */
+    text-align: center;
+    border-radius: 30px;
+    border-top: 20px green solid;
+    border-bottom: 20px blue dashed;
+    border-left: 20px red dotted;
+    border-right: 20px orange double;
+}
+#para3 {
+    height: 1300px;
+    width: 1000px;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/800px-Image_created_with_a_mobile_phone.png');
+    border: 10px blueviolet solid;
+    border-radius: 20px;
+    text-align: center center;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+    
+
+}
