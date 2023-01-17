@@ -1,0 +1,19 @@
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 100px;
+    line-height: 1.3em;
+    font-style: italic;
+}
+p {
+    font-size: 50px;
+    font-weight: bold;
+    color: #FF5733;
+    background-color: blanchedalmond;
+}
+
+#parahead1 {
+    color: rgb(93, 46, 138);
+}
+#para1 {
+    color: aqua;
+}
