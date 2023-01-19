@@ -1,0 +1,16 @@
+*{
+    height: 3400px;
+}
+.box {
+    border: 2px solid red;
+    width: 150px;
+    height: 150px;
+    margin: 2px;
+    display: inline-block;
+}
+#box3{
+    /* position: absolute; */
+    top: 34px;
+    left: 134px;
+    position: fixed;
+}
