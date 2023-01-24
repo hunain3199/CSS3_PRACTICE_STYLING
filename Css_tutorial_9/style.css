@@ -1,0 +1,37 @@
+.container {
+    height: 544px;
+    width: 100%;
+    border: 2px solid black;
+    display: flex;
+    /* flex-direction: row-reverse;
+    flex-wrap: wrap; */
+    /* flex-flow: row-reverse wrap; */
+    /* justify-content: center; */
+    /* justify-content: space-between; */
+    /* justify-content: space-evenly; */
+}
+.item{
+    background-color: tomato;
+    border: 2px solid red;
+    margin: 10px;
+    padding: 3px;
+    width: 150px;    
+}
+#item-1{
+    /* Higher the order later its shows in the container */
+    order: 2;
+    flex-grow: 3;
+}
+#item-2{
+    /* flex-shrink: 3; */
+    flex-basis: 320px;
+    /* when flex direction is set to row flex basis will control
+    the width  */
+    /* when flex direction is set to column flex basis will
+    control the height */
+}
+#item-3{
+    /* flex: 3 3 350px; */
+    /* align-self: flex-end; */
+    align-self: center;
+}
